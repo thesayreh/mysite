@@ -1,0 +1,113 @@
+body {
+    background: #2b1b1b;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#header, #menu, #main, #info, #gallery, #contacts, #footer {
+    background: #3d2727;
+    width: 80vw;
+    margin: 0 auto;
+    color: #e2e2e2;
+}
+
+#header {
+    height: 35vh;
+    width: 100vw;
+    background-image: url(img/h.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    color: #e2e2e2;
+    line-height: 35vh;
+    margin: 0;
+}
+
+#menu {
+    background: #992121;
+    height: 6vh;
+    display: flex;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+}
+
+#menu a {
+    justify-content: space-around;
+    width: 25vw;
+    color: #e2e2e2;
+    font-weight: bold;
+    text-align: center;
+    line-height: 6vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background: #b03030;
+}
+
+h2 {
+    color: #e2e2e2;
+    margin: 0;
+}
+
+#gal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gi {
+    width: 23vw;
+    height: 23vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1vw;
+    transition: 0.2s;
+}
+
+.gi:hover {
+    transform: scale(1.1);
+}
+
+textarea {
+    resize: vertical;
+    max-height: 150px;
+    background: #3d2727;
+    color: #e2e2e2;
+    border: 1px solid #992121;
+}
+
+button {
+    width: 140px;
+    height: 35px;
+    background: #992121;
+    border: none;
+    color: #e2e2e2;
+    font-weight: bold;
+    margin-bottom: 1vw;
+}
+
+button:active {
+    background: #b03030;
+}
+
+form {
+    margin-left: 1vw;
+}
+
+#footer {
+    height: 1vw;
+    background: #992121;
+    color: #e2e2e2;
+    text-align: center;
+    line-height: 1vw;
+    padding: 1vw;
+}
